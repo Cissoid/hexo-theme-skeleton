@@ -6,6 +6,6 @@
 
 {% block content %}
 {% for post in page.posts %}
-    {{ post_template.render(post) }}
+    {{ post_template.render_excerpt(post) }}
 {% endfor %}
 {% endblock %}
